@@ -1,0 +1,37 @@
+{
+  "findAccountDeleteRequests": [
+    {
+      "id": 1,
+      "uuid": "asdf-123",
+      "email": "test_001@credible.com",
+      "status": "inProgress",
+      "requestedBy": "vrodin",
+      "approvedBy": "iskotsyk",
+      "deleteData": {
+        "name": "Personal Loans"
+      }
+    },
+    {
+      "id": 2,
+      "uuid": "asdf-124",
+      "email": "test_002@credible.com",
+      "status": "completed",
+      "requestedBy": "vrodin",
+      "approvedBy": "iskotsyk",
+      "deleteData": {
+        "name": "Salesforce"
+      }
+    },
+    {
+      "id": 3,
+      "uuid": "asdf-125",
+      "email": "test_003@credible.com",
+      "status": "awaitingApproval",
+      "requestedBy": "vrodin",
+      "approvedBy": "iskotsyk",
+      "deleteData": {
+        "name": "Mortgages Refinance"
+      }
+    }
+  ]
+}
