@@ -7,8 +7,11 @@
       "status": "inProgress",
       "requestedBy": "vrodin",
       "approvedBy": "iskotsyk",
-      "deleteData": {
-        "name": "Personal Loans"
+      "accountDeleteItems": {
+        "error": "Something went wrong",
+        "status": "completed",
+        "submissionUuid": "asdf-123",
+        "vertical": "poersonalLoan"
       }
     },
     {
@@ -16,10 +19,13 @@
       "uuid": "asdf-124",
       "email": "test_002@credible.com",
       "status": "completed",
-      "requestedBy": "vrodin",
-      "approvedBy": "iskotsyk",
-      "deleteData": {
-        "name": "Salesforce"
+      "requestedBy": "iskotsyk",
+      "approvedBy": "vrodin",
+      "accountDeleteItems": {
+        "error": "Something went wrong",
+        "status": "completed",
+        "submissionUuid": "asdf-124",
+        "vertical": "mortgageRefinance"
       }
     },
     {
@@ -29,8 +35,25 @@
       "status": "awaitingApproval",
       "requestedBy": "vrodin",
       "approvedBy": "iskotsyk",
-      "deleteData": {
-        "name": "Mortgages Refinance"
+      "accountDeleteItems": {
+        "error": "Something went wrong",
+        "status": "completed",
+        "submissionUuid": "asdf-125",
+        "vertical": "mortgagePurchase"
+      }
+    },
+    {
+      "id": 3,
+      "uuid": "asdf-126",
+      "email": "test_003@credible.com",
+      "status": "awaitingApproval",
+      "requestedBy": "iskotsyk",
+      "approvedBy": "vrodin",
+      "accountDeleteItems": {
+        "error": "Something went wrong",
+        "status": "completed",
+        "submissionUuid": "asdf-126",
+        "vertical": "inSchool"
       }
     }
   ]
